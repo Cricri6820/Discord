@@ -9,3 +9,8 @@ div {
 p li h2 {
     color: white;
 }
+
+.important {
+    color: darkred;
+    font-weight: bold;
+}
