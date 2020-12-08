@@ -1,16 +1,25 @@
-header nav {
-    background-color: skyblue;
+header, nav {
+    background-color: steelblue;
 }
 
 div {
     background-color: rgb(39, 39, 39);
+    padding-left: 10px;
 }
 
-p li h2 {
+p, li, h2 {
     color: white;
 }
 
 .important {
     color: darkred;
     font-weight: bold;
+}
+
+a {
+    color: darkred;
+}
+
+a:visited {
+    color: darkgreen;
 }
