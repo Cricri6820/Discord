@@ -1,25 +1,42 @@
-header, nav {
-    background-color: steelblue;
+body {
+    background-color: rgb(149, 199, 240);
+}
+
+header, nav, footer {
+    background-color: rgb(36, 36, 36);
+    padding-left: 10px;
+    margin: 0
 }
 
 div {
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(49, 49, 49);
     padding-left: 10px;
+    margin: 0
 }
 
-p, li, h2 {
+p, li, h2, h1 {
     color: white;
+}
+
+nav a, li a {
+    color: darkred;
+}
+
+nav a:visited, li a:visited {
+    color: darkgreen;
+}
+
+p a {
+    color: lightyellow;
+    text-decoration-line: none;
+}
+
+p a:visited {
+    color: lightcyan;
+    text-decoration-line: none;
 }
 
 .important {
     color: darkred;
     font-weight: bold;
-}
-
-a {
-    color: darkred;
-}
-
-a:visited {
-    color: darkgreen;
 }
